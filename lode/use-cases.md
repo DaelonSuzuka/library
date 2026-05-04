@@ -21,3 +21,11 @@ Examples:
 - "Trace how data flows from this library through this middleware to this storage layer"
 
 Output: a cross-repo understanding that no single repo's docs would provide. The kind of thing you'd normally spend hours figuring out by reading code in multiple tabs.
+
+## Hands-Off Testing
+
+The library exploits effort asymmetry: the librarian does expensive indexing upfront so consumers (coding subagents) can navigate the lode efficiently — binary search levels of improvement over grinding through raw source files.
+
+Testing exploits the same asymmetry in the other direction: **you can afford to be expensive when creating tests.** You read the raw source freely, burn context formulating deep, complicated questions, then dispatch a consumer subagent with the librarian prompt and your question. If the consumer answers correctly with few tool calls, the lode is healthy. If it falls back to raw source files, the lode has gaps.
+
+Loop: read source → craft question → dispatch subagent → check answer quality + tool call count → if bad, patch lode → retest.
