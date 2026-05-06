@@ -1,2 +1,4 @@
 repos/
 lode/tmp/
+# Large binary files in datasheets
+*.pdf

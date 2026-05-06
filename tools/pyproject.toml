@@ -1,0 +1,9 @@
+[project]
+name = "library-tools"
+version = "0.1.0"
+description = "Tools for extracting and managing library content"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pymupdf>=1.27.2.3",
+]
