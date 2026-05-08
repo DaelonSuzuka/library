@@ -27,6 +27,7 @@ library/
 │   ├── lode-map.md                  # this file
 │   ├── terminology.md               # library-specific terms
 │   ├── practices.md                 # library maintenance patterns
+│   ├── opencode-config.md           # global opencode config documentation
 │   ├── roadmap.md                   # active work items
 │   ├── todo.md                      # unvetted ideas
 │   ├── procedures.md                # re-clone, staleness check, pull & verify
