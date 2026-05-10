@@ -10,9 +10,25 @@ library/
 ├── datasheets/                      # PDFs + extracted markdown (git-ignored)
 │   ├── pic18f16q41/
 │   │   ├── DS40002214.pdf
+│   │   ├── PIC18F06-16Q41-Si-Errata-Data-Sheet-Clarifications-DS80000901.pdf
 │   │   ├── sections.txt             # page-range → filename map for extract.py
 │   │   ├── registers.json           # 833 registers parsed from XC8 header
-│   │   └── extracted/              # 48 section .md files (s01-s51, full 962pp)
+│   │   ├── extracted/              # 48 section .md files (s01-s51, full 962pp)
+│   │   └── extracted-errata/        # errata extraction
+│   ├── pic18f26k42/
+│   │   ├── PIC18(L)F26-27-45-46-47-55-56-57K42-Data-Sheet-40001919G.pdf
+│   │   ├── PIC18-L-F27-47-57K42-Si-Errata-Data-Sheet-Clarification-DS80000773.pdf
+│   │   ├── sections.txt             # page-range → filename map for extract.py
+│   │   ├── registers.json           # 792 registers parsed from XC8 header
+│   │   ├── extracted/               # 47 section .md files (s01-s47, full 841pp)
+│   │   └── extracted-errata/        # errata extraction (12pp)
+│   ├── pic18fq43/
+│   │   ├── PIC18F27-47-57Q43-Microcontroller-Data-Sheet-XLP-DS40002147.pdf
+│   │   ├── PIC18F27-47-57Q43-Si-Errata-Data-Sheet-Clarifications-DS80000870.pdf
+│   │   ├── sections.txt             # page-range → filename map for extract.py
+│   │   ├── registers.json           # 1023 registers parsed from XC8 header
+│   │   ├── extracted/               # 50 section .md files (s01-s50, full 968pp)
+│   │   └── extracted-errata/        # errata extraction (16pp)
 │   ├── ad8310/
 │   │   └── AD8310.pdf
 │   ├── in-pi554fch/
@@ -57,10 +73,59 @@ library/
 │   │       └── lode-map.md
 │   └── datasheets/                  # datasheet lode subtrees
 │       ├── practices.md            # datasheet tending practices
-│       └── pic18f16q41/
+│       ├── pic18f16q41/
+│       │   ├── summary.md
+│       │   ├── lode-map.md
+│       │   ├── toc.md
+│       │   ├── pins.md
+│       │   └── errata.md
+│       ├── pic18f26k42/
+│       │   ├── summary.md
+│       │   ├── lode-map.md
+│       │   ├── toc.md
+│       │   ├── config.md
+│       │   ├── memory.md
+│       │   ├── interrupts.md
+│       │   ├── io-ports.md
+│       │   ├── pps.md
+│       │   ├── timers.md
+│       │   ├── oscillator.md
+│       │   ├── resets.md
+│       │   ├── uart.md
+│       │   ├── spi.md
+│       │   ├── i2c.md
+│       │   ├── dma.md
+│       │   ├── analog.md
+│       │   ├── digital-peripherals.md
+│       │   ├── ccp-pwm.md
+│       │   ├── smt.md
+│       │   ├── nvm-crc.md
+│       │   ├── registers.md
+│       │   ├── electrical.md
+│       │   └── pins.md
+│       └── pic18fq43/
 │           ├── summary.md
 │           ├── lode-map.md
 │           ├── toc.md
+│           ├── config.md
+│           ├── memory.md
+│           ├── interrupts.md
+│           ├── io-ports.md
+│           ├── pps.md
+│           ├── timers.md
+│           ├── oscillator.md
+│           ├── resets.md
+│           ├── uart.md
+│           ├── spi.md
+│           ├── i2c.md
+│           ├── dma.md
+│           ├── analog.md
+│           ├── digital-peripherals.md
+│           ├── ccp-pwm.md
+│           ├── smt.md
+│           ├── nvm-crc.md
+│           ├── registers.md
+│           ├── electrical.md
 │           └── pins.md
 ├── tools/                            # extraction scripts (uv project)
 │   ├── pyproject.toml

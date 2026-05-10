@@ -44,6 +44,10 @@ PIC18 Q41 family mid-range 8-bit MCU. 64KB flash, 4KB RAM, 512B EEPROM, 64 MHz m
 
 DS40002214F, 962 pages. Full extraction in `datasheets/pic18f16q41/extracted/`.
 
+## Errata
+
+DS80000901G. Current silicon revision is **B1**. Key issues affecting B1: I2C has multiple bus-timeout and clock-stretching bugs (no workaround for Multi-Host mode or false Start/Stop); PUSHL instruction broken with certain FSR2 values. Full details in `errata.md`.
+
 ## Register Database
 
 833 registers parsed from XC8 header → `datasheets/pic18f16q41/registers.json`
