@@ -64,13 +64,13 @@ library/
 │   │   │   └── gdextension.md
 │   │   ├── godot-docs/
 │   │   │   ├── summary.md
-│   │   │   └── lode-map.md
+│   │   │   └── lode-map.md              # deep file-level path index (1434 RST files)
 │   │   ├── vscode-docs/
 │   │   │   ├── summary.md
-│   │   │   └── lode-map.md
+│   │   │   └── lode-map.md              # deep file-level path index (API + docs + learn + blogs)
 │   │   └── vscode-extension-samples/
 │   │       ├── summary.md
-│   │       └── lode-map.md
+│   │       └── lode-map.md              # deep sample index (81+ samples with APIs + guide links)
 │   └── datasheets/                  # datasheet lode subtrees
 │       ├── practices.md            # datasheet tending practices
 │       ├── pic18f16q41/
