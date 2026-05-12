@@ -7,6 +7,8 @@ library/
 │   ├── godot-docs/
 │   ├── nicegui/
 │   ├── quasar/
+│   ├── fastapi/
+│   ├── vue-docs/
 │   ├── vscode-docs/
 │   └── vscode-extension-samples/
 ├── datasheets/                      # PDFs + extracted markdown (git-ignored)
@@ -79,6 +81,12 @@ library/
 │   │   └── quasar/
 │   │       ├── summary.md              # Vue.js component library & framework
 │   │       └── lode-map.md             # 79 component dirs, composables, directives, plugins
+│   │   ├── fastapi/
+│   │   │   ├── summary.md              # Python web API framework (Starlette+Pydantic)
+│   │   │   └── lode-map.md             # tutorial, advanced, reference, how-to, deployment
+│   │   └── vue-docs/
+│   │       ├── summary.md              # Vue 3 documentation
+│   │       └── lode-map.md             # guide, API reference, examples, tutorial, style guide
 │   └── datasheets/                  # datasheet lode subtrees
 │       ├── practices.md            # datasheet tending practices
 │       ├── pic18f16q41/

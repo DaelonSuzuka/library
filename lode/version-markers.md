@@ -8,3 +8,5 @@
 | vscode-extension-samples | 2026-02-12 | 61fda64ede073136f3716f69b067d212ef0893e1 | Cloned 2026-05-04 |
 | nicegui | 2026-05-12 | a474161ca438609a542c21318d66fee5bde23497 | Cloned 2026-05-12 |
 | quasar | 2026-05-11 | 5a0e28e8efadad3967617cb790a45a75057b47d3 | Cloned 2026-05-12 (shallow) |
+| vue-docs | 2026-05-07 | cccdebc775b648793aade100a0c11bda2db3bc3a | Cloned 2026-05-12 (shallow) |
+| fastapi | 2026-05-11 | e89a37e50d27f124b77e947b7965b6df75052a35 | Cloned 2026-05-12 (shallow) |

@@ -10,6 +10,8 @@
 | vscode-extension-samples | https://github.com/microsoft/vscode-extension-samples | VS Code extension code samples |
 | nicegui | https://github.com/zauberzeug/nicegui | Python web UI framework (Vue+Quasar) |
 | quasar | https://github.com/quasarframework/quasar | Vue.js UI framework (component library) |
+| vue-docs | https://github.com/vuejs/docs | Vue 3 documentation |
+| fastapi | https://github.com/fastapi/fastapi | Python web API framework |
 
 ## Datasheets
 
