@@ -5,6 +5,8 @@ library/
 ├── repos/                           # cloned repos (git-ignored)
 │   ├── godot/
 │   ├── godot-docs/
+│   ├── nicegui/
+│   ├── quasar/
 │   ├── vscode-docs/
 │   └── vscode-extension-samples/
 ├── datasheets/                      # PDFs + extracted markdown (git-ignored)
@@ -71,6 +73,12 @@ library/
 │   │   └── vscode-extension-samples/
 │   │       ├── summary.md
 │   │       └── lode-map.md              # deep sample index (81+ samples with APIs + guide links)
+│   │   ├── nicegui/
+│   │   │   ├── summary.md              # Python web UI framework (Vue+Quasar backend)
+│   │   │   └── lode-map.md             # package structure, 90+ elements, 59 examples
+│   │   └── quasar/
+│   │       ├── summary.md              # Vue.js component library & framework
+│   │       └── lode-map.md             # 79 component dirs, composables, directives, plugins
 │   └── datasheets/                  # datasheet lode subtrees
 │       ├── practices.md            # datasheet tending practices
 │       ├── pic18f16q41/

@@ -8,6 +8,8 @@
 | godot-docs | https://github.com/godotengine/godot-docs | Godot documentation |
 | vscode-docs | https://github.com/microsoft/vscode-docs | VS Code documentation |
 | vscode-extension-samples | https://github.com/microsoft/vscode-extension-samples | VS Code extension code samples |
+| nicegui | https://github.com/zauberzeug/nicegui | Python web UI framework (Vue+Quasar) |
+| quasar | https://github.com/quasarframework/quasar | Vue.js UI framework (component library) |
 
 ## Datasheets
 
