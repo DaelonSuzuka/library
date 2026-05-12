@@ -2,8 +2,9 @@
 
 ```
 lode/repos/nicegui/
-├── summary.md       # overview, architecture, element hierarchy, element/function catalog
-└── lode-map.md      # this file
+├── summary.md           # overview, architecture, element hierarchy, element/function catalog
+├── lode-map.md           # this file
+└── custom-behavior.md    # 8 mechanisms for customizing/extending elements
 ```
 
 ## Package Structure: `nicegui/`

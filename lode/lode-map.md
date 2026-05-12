@@ -77,7 +77,8 @@ library/
 │   │       └── lode-map.md              # deep sample index (81+ samples with APIs + guide links)
 │   │   ├── nicegui/
 │   │   │   ├── summary.md              # Python web UI framework (Vue+Quasar backend)
-│   │   │   └── lode-map.md             # package structure, 90+ elements, 59 examples
+│   │   │   ├── lode-map.md             # package structure, 90+ elements, 59 examples
+│   │   │   └── custom-behavior.md      # 8 mechanisms for customizing/extending elements
 │   │   └── quasar/
 │   │       ├── summary.md              # Vue.js component library & framework
 │   │       └── lode-map.md             # 79 component dirs, composables, directives, plugins
