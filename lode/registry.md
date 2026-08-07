@@ -12,6 +12,10 @@
 | quasar | https://github.com/quasarframework/quasar | Vue.js UI framework (component library) |
 | vue-docs | https://github.com/vuejs/docs | Vue 3 documentation |
 | fastapi | https://github.com/fastapi/fastapi | Python web API framework |
+| android-keyboard | https://github.com/futo-org/android-keyboard | FUTO Keyboard; modern offline LatinIME fork with prediction, swipe decoding, and eight-direction flick keys |
+| unexpected-keyboard | https://github.com/Julow/Unexpected-Keyboard | Lightweight GPL keyboard centered on configurable per-key directional gestures |
+| florisboard | https://github.com/florisboard/florisboard | Apache-2.0 customizable IME with configurable board-wide swipe actions |
+| heliboard | https://github.com/HeliBorg/HeliBoard | GPL AOSP/OpenBoard-derived offline keyboard with mature layouts and dictionaries |
 
 ## Datasheets
 

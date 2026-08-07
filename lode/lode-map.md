@@ -154,6 +154,13 @@ library/
 ├── reclone.sh
 ```
 
+## Android Keyboard References
+
+- `repos/android-keyboard/` - FUTO Keyboard architecture and flick-key support
+- `repos/unexpected-keyboard/` - Unexpected Keyboard directional gesture model
+- `repos/florisboard/` - FlorisBoard board-wide swipe actions
+- `repos/heliboard/` - HeliBoard AOSP-derived compatibility reference
+
 ## Related Lodes
 
 - **Workspace Lode**: `~/projects/lode/` — environment context and project index
